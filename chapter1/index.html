@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app = "Food Intake">
+<head>
+  <meta charset = "utf-8">
+  <script src = "angular.min.js"></script>
+  <script src = "app.js"></script>
+  <title>MVVM</title>
+</head>
+<body align="center">
+  Give a comma after every item<br>
+  Empty space between or after commas will be considered a an item<br><br>
+  <div ng-controller = "myController">
+    Enter food items : <input type = "text" ng-model = "items">
+    <button ng-click = "showIntake()" ng-model = "list">Check if too much</button><br>{{list}}
+  </div>
+</body>
+</html>
