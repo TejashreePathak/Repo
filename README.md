@@ -1,1 +1,1 @@
-# This is an angularJS repository
+# This is a web technologies repository
